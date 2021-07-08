@@ -12,8 +12,7 @@ from flax.training import checkpoints, common_utils, train_state
 from jax import numpy as jnp, lax
 from ml_collections import config_flags
 from tqdm import tqdm
-
-from datasets.input_pipeline import get_dataset
+from src.input_pipeline import get_dataset
 from model import NeRF
 from utils import (
     disp_post,
