@@ -6,7 +6,7 @@ import tensorflow as tf
 from flax import jax_utils
 
 from clu import deterministic_data
-from datasets import load_blender, load_deepvoxels, load_llff
+from src import load_blender, load_deepvoxels, load_llff
 
 
 AUTOTUNE = tf.data.AUTOTUNE
